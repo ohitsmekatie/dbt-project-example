@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: github_repos # the name of the dataset
+    database: bigquery-public-data # the name of the project in BQ
+    tables:
+    - name: commits
+    - name: contents
+    - name: files 
+    - name: languages 
+    - name: licenses 
+    - name: sample_commits
+    - name: sample_files 
+    - name: sample_repos 
